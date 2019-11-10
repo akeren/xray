@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+input[type='text'] {
+border:1px solid blue;
+border-radius:5px;
+width:100px;
+height:35px;
+}
+
+a { /*-- Removes dotted outline from clicked links in FF --*/
+	outline: none;
+}
+img {
+	border:none;
+}
+.clearer {
+	clear:both;
+}
+blockquote {
+	background: #F2F2F2 url(images/blockquote.png) no-repeat top left;
+	border: 1px solid #D7D7D7;
+	padding: 10px 10px 10px 40px;
+}
+/*-- Main structure for the layout --*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 17px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+#background {
+	background: #F2F2F2;
+}
+#outerWrapper {
+	margin: 0 auto 0 auto;
+	text-align: left;
+	width: 960px;
+}
+#contentWrapper {
+	overflow: hidden;
+	clear:left;
+}
+#sidebar {
+	float: right;
+	padding: 20px 0px 10px 0px;
+	width: 310px;
+}
+#Content {
+	margin: 0 0px 0 0;
+	float: left;
+	width: 640px;
+}
+#Footer {
+	border-top: solid 1px #666;
+	padding: 10px 10px 0px;
+	background: #1133FF;// url(images/footerbg.png) repeat-x top;
+	height: 100%;
+	color:#999;
+}
+
+/*-- Heading styles --*/
+h1 {
+	font: normal 26px/36px Verdana, Geneva, sans-serif;
+	letter-spacing: -1px;
+}
+h2 {
+	font: bold 20px/30px Verdana, Geneva, sans-serif;
+	letter-spacing: -1px;
+}
+h3 {
+	font: bold 17px/27px Verdana, Geneva, sans-serif;
+	letter-spacing: -1px;
+	color: #069;
+}
+h4 {
+	font: bold 14px/24px Verdana, Geneva, sans-serif;
+}
+h5 {
+	font: bold 13px/20px Verdana, Geneva, sans-serif;
+	color: #069;
+}
+h6 {
+	font: bold 12px/18px Verdana, Geneva, sans-serif;
+}
+
+/*-- Link styles --*/
+a, a:link {
+	color: #0392CC;
+	text-decoration: none;
+}
+a:hover {
+	color: #0392CC;
+	text-decoration:underline;
+}
+a:visited, a:active {
+	color: #0392CC;
+}
+.entry a.more-link { /*-- Removes underline from more link --*/
+	text-decoration:none;
+}
+#header a, #header a:link, #header a:active, #header a:visited {
+	color: #FFF;
+}
+#header a:hover {
+	color: #0CF;
+}
+#Footer a, #Footer a:link, #Footer a:active, #Footer a:visited {
+	color: #CCC;
+}
+#Footer a:hover {
+	color: #FFF;
+}
+
+/*-- Header styles --*/
+#headerwrap {
+	padding: 0;
+	text-align: center;
+	background-color: #FFF; /*url(images/logo.png) no-repeat;*/
+}
+#header {
+	width:960px;
+	height:125px;
+	margin:0px auto;
+	text-align:center;
+	vertical-align:middle;
+}
+#header p {
+	margin: 0px;
+}
+.title { /*-- This is the title of your blog --*/
+	font: bold 30px/30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	float: left;
+	width: 600px;
+	padding-top: 15px;
+}
+.title a:hover {
+	text-decoration:none;	
+}
+.description { /*-- This is the line of text below your blog title --*/
+	font: 16px/20px Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	float: left;
+	clear: left;
+	padding-top: 7px;
+}
+.topnav { /*-- This is the RSS links in the header --*/
+	float:right;
+	color: #000;
+	text-align:right;
+	font: bold normal 12px Arial, Helvetica, sans-serif;
+	padding-right: 7px;
+	padding-top: 10px;
+}
+
+/* Navigation Styles */
+#menu {
+	width:1200px;
+	position:relative;
+	margin:0 auto;
+	display:block;
+	height:35px;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#menu ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#menu ul li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#menu ul li a {
+	display:block;
+	float:left;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	padding:11px 20px 0 11px;
+}
+#menu ul li a:hover {
+	color:#FFFFFF;
+}
+
+
+/*-- Post styles --*/
+.posttitle {
+	font-size: 24px;
+	font-weight: normal;
+	border-bottom: 2px solid #000099;;
+	padding-bottom: 5px;
+}
+.posttitle a:hover {
+	text-decoration:none;
+}
+
+#navwrap {
+	background:transparent url(images/nav.png) repeat-x;
+	clear: both;
+}
+
+/*-- Sidebar styles --*/
+#sidebar h5 { 
+height:100%;
+}
+
+.box {
+	background: #FFF url(images/boxbg.png) repeat-x top;
+	padding: 20px;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	width:960px;
+}
+.boxs {
+	background: #FFF url(images/boxbg.png) repeat-x top;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+	float:right;
+	height:100%;
+}
+
+.right {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.left {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
